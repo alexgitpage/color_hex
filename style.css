@@ -1,0 +1,49 @@
+#rgb-result {
+  height: 50px;
+  color: #ffffff;
+  background:#000000;
+}
+
+#red-input {
+  height: 50px;
+  background:  #000000;
+}
+
+#green-input {
+  height: 50px;
+  background:  #000000;
+}
+
+#blue-input {
+  height: 50px;
+  background: #000000;
+}
+
+#red-input, #green-input, #blue-input {
+  text-align: center;
+  margin: 5px;
+  border-radius: 3px;
+  width: 50px;
+}
+
+.color-value {
+  background-color: #DCDCDC;
+  font-size: 48px;
+  text-align: center;
+  width: 230px;
+  border-radius: 3px;
+}
+
+
+input[type="range"]{
+  -webkit-appearance: none;
+  background-color: #555;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width:20px;
+  height:20px;
+  background:#fff;
+  border-radius:50%;
+}
